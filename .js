@@ -20,7 +20,7 @@ uniteUnique([1, 3, 2], [1, [3]], [2, [4]]); // Return [1, 3, 2, [5], [4]]
 
 function uniteUnique(...arrays) {
 
-  // make an array out of the given arrays and flatten it using the spread operator
+  // make an array out of the given arrays and flatten it using concat() with an empty array as a starting point and the spread operator
     
    const flatArray = [].concat(...arrays); // Same as const flatArray = [].concat(...arguments);
 
