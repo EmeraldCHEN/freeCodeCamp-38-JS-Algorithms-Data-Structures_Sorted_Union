@@ -24,7 +24,7 @@ function uniteUnique(...arrays) {
     
   const flatArray = [].concat(...arrays); // Same as const flatArray = [].concat(...arguments);
 
-  // create a Set which clears any duplicates in flatArray
+  // use Set to remove duplicate elements from flatArray
   return [...new Set(flatArray)];
 }
 
