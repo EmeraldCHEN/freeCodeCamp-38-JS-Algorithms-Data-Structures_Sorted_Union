@@ -32,4 +32,4 @@ function uniteUnique(...arrays) {
 
 
 
-// Retrieved from 
+// Retrieved from https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sorted-union/
